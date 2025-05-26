@@ -114,9 +114,7 @@ class QtAT5 < Formula
       sha256 "2d2d671c26a94ec1ec9d5fb3cbe57b3ec0ed98a2e5cc7471c573b763d8e098e6"
       apply "patches/build-with-c++17.patch",
             "patches/ninja-1.12.patch",
-            "patches/python3.12-imp.patch",
-            "patches/python3.12-six.patch",
-            "patches/python3.13-pipes.patch"
+            "patches/python3.12-six.patch"
     end
   end
 
