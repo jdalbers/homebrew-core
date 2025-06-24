@@ -199,6 +199,9 @@ class QtAT5 < Formula
       -webengine-python-version python3
     ]
 
+    # Disable SDK version check to allow building with newer macOS SDKs (e.g., SDK 15.4+)
+    args << "-sdk-no-version-check"
+
     if OS.mac?
       args << "-no-rpath"
       args << "-no-assimp" if Hardware::CPU.arm?
