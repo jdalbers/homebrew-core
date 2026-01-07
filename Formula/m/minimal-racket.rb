@@ -65,7 +65,7 @@ class MinimalRacket < Formula
       system "make"
       system "make", "install"
 
-      # Link to the Hombrew ssl libraries, overwriting the bundled libraries
+      # Link to the Homebrew ssl libraries, overwriting the bundled libraries
       if OS.mac?
         openssl = Formula["openssl@3"]
         racket_libdir = lib/"racket"
