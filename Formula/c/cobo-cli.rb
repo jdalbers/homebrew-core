@@ -6,16 +6,16 @@ class CoboCli < Formula
   url "https://files.pythonhosted.org/packages/85/f5/b116ad0bc82961a47f7407611d6950f18078bdd3b193d2a34cf1e8b8065c/cobo_cli-0.0.9.tar.gz"
   sha256 "70932b6e5b115e222bdc418e5ce7a17b3229ac530157534c3e374f832cd056cf"
   license "MIT"
-  revision 2
+  revision 4
   head "https://github.com/CoboGlobal/cobo-cli.git", branch: "master"
 
   bottle do
-    sha256 cellar: :any,                 arm64_tahoe:   "d017d9ef9fa0f5eb5b3354287ea5e1c82c45eed3f99834e1cac8b8d377d8ea63"
-    sha256 cellar: :any,                 arm64_sequoia: "2ae57adbdad73eb6b817d5889a9c4de03a552eff564eaca0e4e9e2bde4f06ab0"
-    sha256 cellar: :any,                 arm64_sonoma:  "ba77becc1d3c4b122cc5441f220bf9ff7499afb495e9050c5ba29672d2690ea5"
-    sha256 cellar: :any,                 sonoma:        "a10a4630199630595525b2f242565e0e56b5a63ba9e31ea7ae215d734a961831"
-    sha256 cellar: :any_skip_relocation, arm64_linux:   "3a4d2d61fa7f764a6477e5e081584e1d58d0c4a1443fc8ae812686fa951a85cc"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "74cd9f4d6ac70ed3ef424022ee4a9f76d6b3c020aa27add862efefb25b651296"
+    sha256 cellar: :any,                 arm64_tahoe:   "2dabea420520a063b9aa37407fc90f64a3d8bd373e8cf72ddacdb5674997fc5d"
+    sha256 cellar: :any,                 arm64_sequoia: "41840dbeb63c550db8d8fe95114909aa92b855f60cfd61bbc79d8573be28e087"
+    sha256 cellar: :any,                 arm64_sonoma:  "db2166ddc4b3060b3e2ad00128195d9fc5846cea3da6d5aa9c6af87fa4f950cb"
+    sha256 cellar: :any,                 sonoma:        "8ad50050f8a23bbedf6b637ccf79f318ceeb8cf80864fe991679b9aa6c9e80d3"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "a61f85e033085d5a52a0b58b50b533ef158f206a1b2ef33b713c2667f9a99c49"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "408e623e0790867416381dfb169550204142daa96143d8e532c55d8dfd0a30d1"
   end
 
   depends_on "certifi" => :no_linkage
@@ -64,8 +64,8 @@ class CoboCli < Formula
   end
 
   resource "gitpython" do
-    url "https://files.pythonhosted.org/packages/9a/c8/dd58967d119baab745caec2f9d853297cec1989ec1d63f677d3880632b88/gitpython-3.1.45.tar.gz"
-    sha256 "85b0ee964ceddf211c41b9f27a49086010a190fd8132a24e21f362a4b36a791c"
+    url "https://files.pythonhosted.org/packages/df/b5/59d16470a1f0dfe8c793f9ef56fd3826093fc52b3bd96d6b9d6c26c7e27b/gitpython-3.1.46.tar.gz"
+    sha256 "400124c7d0ef4ea03f7310ac2fbf7151e09ff97f2a3288d64a440c584a29c37f"
   end
 
   resource "idna" do
@@ -99,8 +99,8 @@ class CoboCli < Formula
   end
 
   resource "pynacl" do
-    url "https://files.pythonhosted.org/packages/b2/46/aeca065d227e2265125aea590c9c47fbf5786128c9400ee0eb7c88931f06/pynacl-1.6.1.tar.gz"
-    sha256 "8d361dac0309f2b6ad33b349a56cd163c98430d409fa503b10b70b3ad66eaa1d"
+    url "https://files.pythonhosted.org/packages/d9/9a/4019b524b03a13438637b11538c82781a5eda427394380381af8f04f467a/pynacl-1.6.2.tar.gz"
+    sha256 "018494d6d696ae03c7e656e5e74cdfd8ea1326962cc401bcf018f1ed8436811c"
   end
 
   resource "python-dotenv" do
@@ -139,8 +139,8 @@ class CoboCli < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/1e/24/a2a2ed9addd907787d7aa0355ba36a6cadf1768b934c652ea78acbd59dcd/urllib3-2.6.2.tar.gz"
-    sha256 "016f9c98bb7e98085cb2b4b17b87d2c702975664e4f060c6532e64d1c1a5e797"
+    url "https://files.pythonhosted.org/packages/c7/24/5f1b3bdffd70275f6661c76461e25f024d5a38a46f04aaca912426a2b1d3/urllib3-2.6.3.tar.gz"
+    sha256 "1b62b6884944a57dbe321509ab94fd4d3b307075e0c2eae991ac71ee15ad38ed"
   end
 
   resource "websocket-client" do
